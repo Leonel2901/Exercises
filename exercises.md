@@ -12,9 +12,9 @@ Identifica los errores en el codigo siguiente:
  
 import java.io.*;
  
-classes GFG {
+classes GFG { //Error no debe ser classes, debe ser class
     // Function to print N Fibonacci Number
-    stetic void Fibonacci(int N)
+    stetic void Fibonacci(int N) //debe ser static no stetic
     {
         int num1 = 0, num2 = 1;
  
@@ -30,13 +30,13 @@ classes GFG {
     }
  
     // Driver Code
-    public static vacio main(String args[])
+    public static vacio main(String args[]) // debe ser void no vacio 
     {
         // Given Number N
         int N = 10;
  
         // Function Call
-        Fibonacci(N, 2);
+        Fibonacci(N, 2); //fibonacci no necesita 2 argumentos
     }
 }
  
